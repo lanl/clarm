@@ -40,5 +40,6 @@ For more information:
 
 ## About the repository:
 1. The python code is written using pytorch, cuda 11.8 and cudnn 8.x.
-2. "main.py" is the main python file (run in spyder).
-3. lib folder has .py files required to run "main.py"
+2. "clarm_main.py" is the main python file (run in spyder).
+3. lib folder has .py files required to run "clarm_main.py"
+4. "resnet5_classifer.py" is the resnet50 model used as a classifer to classify 6d phase space of charged particles beam into 48 classes (accelerating sections/modules). The lib folder contains "pretrainedresnet50.py", which is used in the "clarm_main.py" for calculating the fid, precision, and recall. The weights of trained resnet50 classifer is not uploaded to the insufficient space of the repository. **Email at mrautela@lanl.gov**.
